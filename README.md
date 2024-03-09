@@ -8,7 +8,7 @@ Your bucket name must match your domain name!
 The ACM certificate is already commented out, and Cloudfront is currently set to use a default certificate. If you would like your own, uncomment the ACM cert section, and uncomment line 387, while commenting out line 388. Requesting an ACM cert will take some time, which will cause your Terraform deployment to take some time.
 
 # Variables:
-Line 24: Create your bucket name
-Line 41: "./webfiles/" refers to a directory created within Terraform's working directory, you must create this directory yourself and add your website content within here. "webfiles" dir can have any name, it does not matter.
-Line 279: Name your CF Origin Access Control
-Line 370: Add/Remove countries for whitelisting
+Line 24: Create your bucket name\n
+Line 41: "./webfiles/" refers to a directory created within Terraform's working directory, you must create this directory yourself and add your website content within here. "webfiles" dir can have any name, it does not matter.\n
+Line 279: Name your CF Origin Access Control\n
+Line 370: Add/Remove countries for whitelisting\n
