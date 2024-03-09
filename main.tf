@@ -21,7 +21,7 @@ provider "aws" {
 
 # create the website bucket
 resource "aws_s3_bucket" "the-bucket" {
-  bucket = "brandonsweat-terraform.net" # INPUT YOUR BUCKET NAME HERE
+  bucket = "www.mywebsite.com" # INPUT YOUR BUCKET NAME HERE
   force_destroy = true # allows forced destruction of the bucket and its contents if you perform "terraform destroy"
 }
 
@@ -276,7 +276,7 @@ locals {
 
 # Create cloudfront distribution Origin Access Control
 resource "aws_cloudfront_origin_access_control" "OAC" {
-  name                              = "brandonsweat-terraform-OAC" # NAME YOUR CLOUDFRONT ORIGIN
+  name                              = "mywebsite-terraform-OAC" # NAME YOUR CLOUDFRONT ORIGIN
   description                       = "OAC Policy"
   origin_access_control_origin_type = "s3"
   signing_behavior                  = "always"
