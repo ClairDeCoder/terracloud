@@ -91,6 +91,7 @@ terraform/
 ## Variables
 
 Variable	| Description	| Default
+--- | --- | ---
 region |	AWS region for deployment |	us-east-1
 bucket_name	| Name of the S3 bucket |	www.mywebsite.com
 domain_name |	Domain name for Route 53 |	mywebsite.com
