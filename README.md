@@ -32,27 +32,27 @@ This Terraform project automates the deployment of a secure, scalable static web
 ---
 
 ## Project Structure
-terraform/
-├── main.tf              # Root configuration to connect modules
-├── variables.tf         # Global variables for the project
-├── outputs.tf           # Outputs for key resource attributes
-├── modules/
-│   ├── s3/              # S3 static website module
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   ├── outputs.tf
-│   ├── route53/         # Route 53 DNS module
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   ├── outputs.tf
-│   ├── cloudfront/      # CloudFront distribution module
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   ├── outputs.tf
-│   ├── waf/             # WAF configuration module
-│       ├── main.tf
-│       ├── variables.tf
-│       ├── outputs.tf
+terraform/  
+├── main.tf              # Root configuration to connect modules  
+├── variables.tf         # Global variables for the project  
+├── outputs.tf           # Outputs for key resource attributes  
+├── modules/  
+│   ├── s3/              # S3 static website module  
+│   │   ├── main.tf  
+│   │   ├── variables.tf  
+│   │   ├── outputs.tf  
+│   ├── route53/         # Route 53 DNS module  
+│   │   ├── main.tf  
+│   │   ├── variables.tf  
+│   │   ├── outputs.tf  
+│   ├── cloudfront/      # CloudFront distribution module  
+│   │   ├── main.tf  
+│   │   ├── variables.tf  
+│   │   ├── outputs.tf  
+│   ├── waf/             # WAF configuration module  
+│       ├── main.tf  
+│       ├── variables.tf  
+│       ├── outputs.tf  
 
 ## Prerequisites
 
